@@ -2,42 +2,8 @@
 
 Follow these instructions _step-by-step_ to setup your AWS environment. The screenshots may look a bit different than what you are seeing, but the flow is the same.
 
-## Task 1: Accept the Invitation to join the AWS Classroom (the first time)
 
-1. In your student email inbox, you will have an email from _AWS Educate Support_ with the subject _Your AWS Educate Application_. 
-1. Open the email.
-1. In the fourth paragraph, **right click** where it says _click here_ and **open the link in a private/incognito browser page**
-1. Fill in the fields for country (USA), first name, last name, graduation month and year, and your birth month and year. Your school and email address are already populated and you cannot change this.  Click _next_.
-1. Scroll down and accept the AWS Educate Terms and Conditions. Click _submit_. You will get a confirmtion page.
-1. Check your email again for an email from _AWS Educate Support_ with the subject _Email Verification - AWS Educate Application_.
-1. Right click on the confirmation link and open it in a private/incognito browser window
-1. Wait for the approval email from _AWS Educate Support_ with the subject _AWS Educate Application Approved_.
-1. Right click on _Click here_ and open in a private/incognito window
-1. Create a password
-1. After you create the password, you'll be logged into AWS Educate
-1. Click on _My Classrooms_ at the top
-1. You'll see the classroom you've joined, the credit amount you have, and a blue button that says _Go to classroom_. Click on the blue button.
-1. Click Continue on the _Confirm_ notice
-1. Accept the _Vocareum_ terms and conditions
-1. In the _Welcome to your AWS Educate Account_ page, click on the _AWS Console_ button towards the right
-1. You have now logged into the AWS Console
-
-
-### Logging into the AWS Console at a later time
-
-To access the AWS Console in the future, you don't need to do all the steps in the previous secion.
-
-1. Open a private/incognito browser window
-1. Go to [https://aws.amazon.com/education/awseducate/]() and click on _Sign in to AWS Educate_
-1. Login with your student email and the password you created  
-1. Click on _My Classrooms_ at the top
-1. Click on the blue _Go to classroom_ button
-1. Click Continue on the _Confirm_ notice
-1. In the _Welcome to your AWS Educate Account_ page, click on the _AWS Console_ button towards the right
-1. You have now logged into the AWS Console
-
-
-## Task 2: Upload your Public key to AWS (do this one time only)
+## Task 1: Upload your Public key to AWS (do this one time only)
 
 1. Login to your AWS Console if you are not already logged in
 1. Go to the EC2 Dashboard. You can get here by clicking on **Services** in the top left and choosing **EC2** under the **Compute** heading
@@ -61,7 +27,7 @@ To access the AWS Console in the future, you don't need to do all the steps in t
 You will use your key to connect to AWS resources later.
 
 
-## Task 3: Create a Security Group (do this one time only)
+## Task 2: Create a Security Group (do this one time only)
 
 Before we launch our first AWS EC2 instance, we will setup a _Security Group_ in the AWS Console. Each account comes with a default security group, but we will create a specific one that we will use to connect to our EC2 instance via `ssh`, which means it will open up port 22 on your instance.
 
@@ -87,7 +53,7 @@ Before we launch our first AWS EC2 instance, we will setup a _Security Group_ in
 	<img src='img/security-group-console.png'>
 
 
-## Task 4: Launch your first Linux instance/virtual machine on AWS
+## Task 3: Launch your first Linux instance/virtual machine on AWS
 
 This is a step-by-step guide on how to launch an instance.
 
@@ -138,7 +104,7 @@ This is a step-by-step guide on how to launch an instance.
 
 1. When the instance is in "running" state, it is ready to be used!
 
-## Task 5: Connect to the remote server using Secure Shell `ssh`
+## Task 4: Connect to the remote server using Secure Shell `ssh`
 
 We will be using the terminal with Secure Shell to connect to our remote instance. 
 
@@ -182,7 +148,7 @@ https://aws.amazon.com/amazon-linux-2/
 ```
 **Congratulations, you have successfully connected to your remote instance!**
 
-## Task 6: Stop or terminate your virtual machine
+## Task 5: Stop or terminate your virtual machine
 
 There are two concepts you need to understand:
 

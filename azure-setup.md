@@ -2,28 +2,7 @@
 
 Follow these instructions _step-by-step_ to setup your Azure environment. The screenshots may look a bit different than what you are seeing, but the flow is the same.
 
-## Task 1: Accept the Invitation to join the _Azure lab assignment_  first time)
-
-Although it is called a "lab", you will be creating a sponsored Azure subscription with a credit amount that will give you access to most of Azure's services.
-
-1. In your student email inbox, you will have an email from _Microsoft Azure_ with the subject _Action required: Accept your Azure lab assignment_. 
-1. Open the email.
-1. **Right click** in the blue box where it says _Accept lab assignment_ and **open the link in a private/incognito browser page**
-1. Sign in **with your school email address**
-2. You'll land in the _Education | Overview_ page
-3. Click the blue _Setup lab_ button at the bottom
-4. Wait until the "lab" finishes setting up
-5. When the "lab" setup is completed, click on _Go to lab_
-6. The _Course - Lab_ page is for reference only.
-
-### Logging into the Azure Portal at a later time
-To access the Azure Portal the future, you don't need to do all the steps in the previous secion.
-
-1. Open a private/incognito browser window
-1. Go to [https://portal.azure.com]()
-1. Login with your school email and password (and go through two factor authentication)  
-
-## Task 2: Finding your Azure Subscription (one time only)
+## Task 1: Find your Azure Subscription (one time only)
 
 1. Click on _Home_ in the top left
 2. Click on _Subscrptions_ (the key icon)
@@ -31,7 +10,7 @@ To access the Azure Portal the future, you don't need to do all the steps in the
 4. You will either see a subscription name called _Microsoft Azure Subscription 2_ or _course-name-semester_
 5. You can rename it if you wish
 
-## Task 3: Create a Resouce Group (one time only)
+## Task 2: Create a Resouce Group (one time only)
 
 A resource group (RG) is a logical grouping of cloud resources. You can 
 
@@ -48,7 +27,9 @@ A resource group (RG) is a logical grouping of cloud resources. You can
 2. After validation passes, click _Create_
 1. Once the RG is created, you'll see it in the RG list (if your right subscriptions are selected in the filter)
 
-## Task 4: Upload your Public key to Azure (do this one time only)
+**The following tasks are optional**
+
+## Task 3: Upload your Public key to Azure (do this one time only)
 
 1. Click on _Home_ in the top left
 2. Enter `ssh keys` in the blue search bar, and clicl on _SSH Keys_ service
